@@ -1,0 +1,58 @@
+body {
+    background-image: url('/public/constructionbackground.jpg'); /* New background image */
+
+    color: #f3ecec; /* Black text */
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #34b7eb; /* Blue headers */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+ol {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+a {
+    color: #34b7eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
